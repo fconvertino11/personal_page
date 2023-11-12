@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const soundButton = document.getElementById('soundButton');
 
     // You can replace 'path/to/your/sound.mp3' with the actual path to your sound file
-    const sound = new Audio('sound.mp3');
+    const sound = new Audio('squack_5.mp3');
 
     soundButton.addEventListener('click', function () {
         sound.play();
